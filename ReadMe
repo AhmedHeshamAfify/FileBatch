@@ -1,0 +1,25 @@
+Tools Needed:
+1- lunix OS
+2- Docker
+3- Maven
+4- Java 8
+5- Postman
+
+Install:
+1- Extract the package.
+2- Open terminal.
+3- Go with terminal to the path of the extracted package.
+4- Run the following maven command "mvn clean package".
+5- Run the following docker command "docker-compose up".
+
+
+Run the app:
+1- Open Postman.
+2- Add get request for "localhost:8085"
+3- Go to Authorization tab.
+4- Choose from the type dropdown menu "Basic Auth".
+5- Enter username "Ahmed" and password "123".
+6- you will get message containing the Job status.
+7- Now add to the URL in step 2 "/showInsertedStudents" to get the inserted students.
+
+
